@@ -4,9 +4,9 @@ B = len(sys.argv) > 1 and sys.argv[1] == "b"
 invalids = []
 
 for scope in sys.stdin.readline().split(","):
-    x, y = scope.split("-")
+    x, y = map(int, scope.split("-"))
 
-    for i in range(int(x), int(y)+1):
+    for i in range(x, y+1):
         i = str(i)
 
         for j in range(1, len(i)):
