@@ -1,13 +1,15 @@
 # aoc
 
-**aoc** is a repository of _my_ code solutions for the problems hosted on Advent of Code.
+**aoc** is a repository of _my_ code solutions for the problems hosted on [Advent of Code](https://adventofcode.com).
+
+To run the second part of a program, attach a `b` as an argument.
 
 ## Table of contents
 
 | Problem   | Solution(s) | Notes
 | ---       | ---       | ---
 | [2025-01] | [py](2025/1.py) [lua](2025/1.lua)
-| [2025-02] | [py](2025/2.py) | Slow, will reimplement in C
+| [2025-02] | [py](2025/2.py)
 | [2025-03] | [py](2025/3.py)
 | [2025-04] | [py](2025/4.py) [lua](2025/4.lua)
 | [2025-05] | [py](2025/5.py)

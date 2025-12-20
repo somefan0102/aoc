@@ -1,7 +1,5 @@
 import sys
-from math import sqrt
 
-B = len(sys.argv) > 1 and sys.argv[1] == "b"
 grid = []
 coors = []
 
